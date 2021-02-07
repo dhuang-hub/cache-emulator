@@ -11,8 +11,10 @@ to read without the static type declarations. My implementations
 Note: Beginning with Python 3.7, Python dictionaries order items by entry time
 by default.
 
+TL;DR Scroll to bottom.
 
-## Version 1: Implementations Details
+
+## Version 1: Python 3
 #### Environment Requirements
 - Python 3.7+
 - numpy
@@ -86,13 +88,11 @@ Note: The `cache-sim.py ` located in directory `py` versus the one at
 the top-level are nearly identical, except the top-level script
 imports the Cython compiled source code.
 
-For correctness, I have a `test_cy.py` script that is nearly identical
-to the pure Python test script, checking computation correctness
-against external numpy results. To run, use the below command:
+For correctness, I have a `test_cy.py` script (runtime: ~2-3 mins).
 
 `python test_cy.py`
 
-#### Speed Benchmarks on my MacBook
+## Speed Benchmarks on my MacBook
 Running defaults, except for `dimension = 128`. No printing.
 - Python: ~25 secs
 - Cython: ~3-4 secs
@@ -135,3 +135,14 @@ Computation result:
 
 Note: My `mxm_block` implementation will throw an assertion error
 if the dimension is not divisible by the blocking factor.
+
+#### Test Scripts
+`python Py/test.py`
+
+`python test_cy.py`
+
+
+# TL;DR
+1. Compile: `python Pyx/setup.py`
+
+2. Run: `python cache-sim.py [parameter options]`

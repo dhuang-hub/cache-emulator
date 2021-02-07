@@ -1,0 +1,29 @@
+Skylake Memory Block Analysis
+
+
+Skylake Memory Block: 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              2
+Number of Sets =             256
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         221867190
+Read misses:       2772810
+Read miss rate:    1.23%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           155.44 secs
+
+
+Skylake Memory Block: 128
