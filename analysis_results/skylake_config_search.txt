@@ -1,0 +1,626 @@
+Skylake Memory Block Analysis
+
+
+Skylake Config: 2 / 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              2
+Number of Sets =             256
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         221867190
+Read misses:       2772810
+Read miss rate:    1.23%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           148.34 secs
+
+
+Skylake Config: 2 / 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      256
+Associativity =              2
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         222410130
+Read misses:       2229870
+Read miss rate:    0.99%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           142.18 secs
+
+
+Skylake Config: 2 / 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      128
+Associativity =              2
+Number of Sets =             64
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         222694200
+Read misses:       1945800
+Read miss rate:    0.87%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           141.08 secs
+
+
+Skylake Config: 2 / 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      64
+Associativity =              2
+Number of Sets =             32
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         212212111
+Read misses:       12427889
+Read miss rate:    5.53%
+Write hits:        3326416
+Write misses:      820784
+Write miss rate:   19.79%
+Runtime:           176.98 secs
+
+
+Skylake Config: 2 / 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      32
+Associativity =              2
+Number of Sets =             16
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         182741590
+Read misses:       41898410
+Read miss rate:    18.65%
+Write hits:        915688
+Write misses:      3231512
+Write miss rate:   77.92%
+Runtime:           263.99 secs
+
+
+Skylake Config: 4 / 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              4
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223470210
+Read misses:       1169790
+Read miss rate:    0.52%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           146.46 secs
+
+
+Skylake Config: 4 / 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      256
+Associativity =              4
+Number of Sets =             64
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224105610
+Read misses:       534390
+Read miss rate:    0.24%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           145.94 secs
+
+
+Skylake Config: 4 / 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      128
+Associativity =              4
+Number of Sets =             32
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224395380
+Read misses:       244620
+Read miss rate:    0.11%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           142.11 secs
+
+
+Skylake Config: 4 / 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      64
+Associativity =              4
+Number of Sets =             16
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         217620000
+Read misses:       7020000
+Read miss rate:    3.12%
+Write hits:        4136400
+Write misses:      10800
+Write miss rate:   0.26%
+Runtime:           170.37 secs
+
+
+Skylake Config: 4 / 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      32
+Associativity =              4
+Number of Sets =             8
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         169788600
+Read misses:       54851400
+Read miss rate:    24.42%
+Write hits:        685800
+Write misses:      3461400
+Write miss rate:   83.46%
+Runtime:           319.69 secs
+
+
+Skylake Config: 8 / 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              8
+Number of Sets =             64
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223416870
+Read misses:       1223130
+Read miss rate:    0.54%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           155.98 secs
+
+
+Skylake Config: 8 / 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      256
+Associativity =              8
+Number of Sets =             32
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224052270
+Read misses:       587730
+Read miss rate:    0.26%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           152.84 secs
+
+
+Skylake Config: 8 / 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      128
+Associativity =              8
+Number of Sets =             16
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224411340
+Read misses:       228660
+Read miss rate:    0.10%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           150.93 secs
+
+
+Skylake Config: 8 / 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      64
+Associativity =              8
+Number of Sets =             8
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         217620000
+Read misses:       7020000
+Read miss rate:    3.12%
+Write hits:        4136400
+Write misses:      10800
+Write miss rate:   0.26%
+Runtime:           177.01 secs
+
+
+Skylake Config: 8 / 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      32
+Associativity =              8
+Number of Sets =             4
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         159608400
+Read misses:       65031600
+Read miss rate:    28.95%
+Write hits:        685800
+Write misses:      3461400
+Write miss rate:   83.46%
+Runtime:           341.85 secs
+
+
+Skylake Config: 16 / 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              16
+Number of Sets =             32
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223391430
+Read misses:       1248570
+Read miss rate:    0.56%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           163.77 secs
+
+
+Skylake Config: 16 / 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      256
+Associativity =              16
+Number of Sets =             16
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224026830
+Read misses:       613170
+Read miss rate:    0.27%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           155.54 secs
+
+
+Skylake Config: 16 / 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      128
+Associativity =              16
+Number of Sets =             8
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224407440
+Read misses:       232560
+Read miss rate:    0.10%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           157.46 secs
+
+
+Skylake Config: 16 / 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      64
+Associativity =              16
+Number of Sets =             4
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         217620000
+Read misses:       7020000
+Read miss rate:    3.12%
+Write hits:        4136400
+Write misses:      10800
+Write miss rate:   0.26%
+Runtime:           179.23 secs
+
+
+Skylake Config: 16 / 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      32
+Associativity =              16
+Number of Sets =             2
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         122947200
+Read misses:       101692800
+Read miss rate:    45.27%
+Write hits:        685800
+Write misses:      3461400
+Write miss rate:   83.46%
+Runtime:           461.58 secs
+
+
+Skylake Config: 32 / 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      512
+Associativity =              32
+Number of Sets =             16
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223378710
+Read misses:       1261290
+Read miss rate:    0.56%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           158.99 secs
+
+
+Skylake Config: 32 / 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      256
+Associativity =              32
+Number of Sets =             8
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224014110
+Read misses:       625890
+Read miss rate:    0.28%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           157.99 secs
+
+
+Skylake Config: 32 / 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      128
+Associativity =              32
+Number of Sets =             4
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         224404320
+Read misses:       235680
+Read miss rate:    0.10%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           156.09 secs
+
+
+Skylake Config: 32 / 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      64
+Associativity =              32
+Number of Sets =             2
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         217620000
+Read misses:       7020000
+Read miss rate:    3.12%
+Write hits:        4136400
+Write misses:      10800
+Write miss rate:   0.26%
+Runtime:           177.94 secs
+
+
+Skylake Config: 32 / 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 32768 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      32
+Associativity =              32
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         107136000
+Read misses:       117504000
+Read miss rate:    52.31%
+Write hits:        685800
+Write misses:      3461400
+Write miss rate:   83.46%
+Runtime:           504.89 secs

@@ -73,22 +73,23 @@ SRCDIR="../"
 #   python "${SRCDIR}cache-sim.py" -c "32768" -n "$n" >> "${RESDIR}skylake_associativity_analysis.txt"
 # done
 
-echo "Skylake Memory Block Analysis" > "${RESDIR}skylake_memory_block_analysis.txt"
-  for b in 64 128 256 512 1024
-  do
-    echo >> "${RESDIR}skylake_memory_block_analysis.txt"
-    echo >> "${RESDIR}skylake_memory_block_analysis.txt"
-    echo "Skylake Memory Block: ${b}" >> "${RESDIR}skylake_memory_block_analysis.txt"
-    python "${SRCDIR}cache-sim.py" -c "32768" -b "$b" >> "${RESDIR}skylake_memory_block_analysis.txt"
-  done
+# echo "Skylake Memory Block Analysis" > "${RESDIR}skylake_memory_block_analysis.txt"
+# for b in 64 128 256 512 1024
+# do
+#   echo >> "${RESDIR}skylake_memory_block_analysis.txt"
+#   echo >> "${RESDIR}skylake_memory_block_analysis.txt"
+#   echo "Skylake Memory Block: ${b}" >> "${RESDIR}skylake_memory_block_analysis.txt"
+#   python "${SRCDIR}cache-sim.py" -c "32768" -b "$b" >> "${RESDIR}skylake_memory_block_analysis.txt"
+# done
 
 echo "Skylake Memory Block Analysis" > "${RESDIR}skylake_config_search.txt"
 for n in 2 4 8 16 32
+do
   for b in 64 128 256 512 1024
   do
     echo >> "${RESDIR}skylake_config_search.txt"
     echo >> "${RESDIR}skylake_config_search.txt"
     echo "Skylake Config: ${n} / ${b}" >> "${RESDIR}skylake_config_search.txt"
-    python "${SRCDIR}cache-sim.py"cache-sim.py -c "32768" -n "$n" -b "$b" >> "${RESDIR}skylake_config_search.txt"
+    python "${SRCDIR}cache-sim.py" -c "32768" -n "$n" -b "$b" >> "${RESDIR}skylake_config_search.txt"
   done
 done
