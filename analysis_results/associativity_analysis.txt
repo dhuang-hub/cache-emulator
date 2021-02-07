@@ -1,0 +1,151 @@
+Associativity Analysis
+
+
+Associativity: 1
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1
+Number of Sets =             1024
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         220590543
+Read misses:       4049457
+Read miss rate:    1.80%
+Write hits:        3630720
+Write misses:      516480
+Write miss rate:   12.45%
+Runtime:           148.71 secs
+
+
+Associativity: 2
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223266764
+Read misses:       1373236
+Read miss rate:    0.61%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           189.55 secs
+
+
+Associativity: 4
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              4
+Number of Sets =             256
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           175.64 secs
+
+
+Associativity: 8
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           159.98 secs
+
+
+Associativity: 16
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              16
+Number of Sets =             64
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           162.32 secs
+
+
+Associativity: 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           179.09 secs

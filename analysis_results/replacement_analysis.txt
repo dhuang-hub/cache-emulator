@@ -1,0 +1,226 @@
+Replacement Policy Analysis
+
+
+Replacement Strategy: random for daxpy
+
+INPUTS====================================
+Ram Size =                   240000000 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         random
+Algorithm =                  daxpy
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 10000000
+
+RESULTS===================================
+Instruction count: 80000000
+Read hits:         17500000
+Read misses:       2500000
+Read miss rate:    12.50%
+Write hits:        35000000
+Write misses:      5000000
+Write miss rate:   12.50%
+Runtime:           153.88 secs
+
+
+Replacement Strategy: FIFO for daxpy
+
+INPUTS====================================
+Ram Size =                   240000000 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         FIFO
+Algorithm =                  daxpy
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 10000000
+
+RESULTS===================================
+Instruction count: 80000000
+Read hits:         17500000
+Read misses:       2500000
+Read miss rate:    12.50%
+Write hits:        35000000
+Write misses:      5000000
+Write miss rate:   12.50%
+Runtime:           140.22 secs
+
+
+Replacement Strategy: LRU for daxpy
+
+INPUTS====================================
+Ram Size =                   240000000 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  daxpy
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 10000000
+
+RESULTS===================================
+Instruction count: 80000000
+Read hits:         17500000
+Read misses:       2500000
+Read miss rate:    12.50%
+Write hits:        35000000
+Write misses:      5000000
+Write miss rate:   12.50%
+Runtime:           157.98 secs
+
+
+Replacement Strategy: random for mxm
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         random
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         115048742
+Read misses:       106365658
+Read miss rate:    48.04%
+Write hits:        625174
+Write misses:      296426
+Write miss rate:   32.16%
+Runtime:           617.81 secs
+
+
+Replacement Strategy: FIFO for mxm
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         FIFO
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         96768000
+Read misses:       124646400
+Read miss rate:    56.30%
+Write hits:        604800
+Write misses:      316800
+Write miss rate:   34.38%
+Runtime:           491.96 secs
+
+
+Replacement Strategy: LRU for mxm
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         96768000
+Read misses:       124646400
+Read miss rate:    56.30%
+Write hits:        604800
+Write misses:      316800
+Write miss rate:   34.38%
+Runtime:           502.51 secs
+
+
+Replacement Strategy: random for mxm_block
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         random
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         222906439
+Read misses:       1733561
+Read miss rate:    0.77%
+Write hits:        4005116
+Write misses:      142084
+Write miss rate:   3.43%
+Runtime:           116.26 secs
+
+
+Replacement Strategy: FIFO for mxm_block
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         FIFO
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223046909
+Read misses:       1593091
+Read miss rate:    0.71%
+Write hits:        4059466
+Write misses:      87734
+Write miss rate:   2.12%
+Runtime:           110.64 secs
+
+
+Replacement Strategy: LRU for mxm_block
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223266764
+Read misses:       1373236
+Read miss rate:    0.61%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           159.53 secs

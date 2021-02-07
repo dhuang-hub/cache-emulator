@@ -1,0 +1,201 @@
+Memory Block Analysis
+
+
+Memory Block Size: 8
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 8 bytes
+Total Blocks in Cache =      8192
+Associativity =              2
+Number of Sets =             4096
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         216517308
+Read misses:       8122692
+Read miss rate:    3.62%
+Write hits:        3456000
+Write misses:      691200
+Write miss rate:   16.67%
+Runtime:           178.09 secs
+
+
+Memory Block Size: 16
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 16 bytes
+Total Blocks in Cache =      4096
+Associativity =              2
+Number of Sets =             2048
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         220374140
+Read misses:       4265860
+Read miss rate:    1.90%
+Write hits:        3801600
+Write misses:      345600
+Write miss rate:   8.33%
+Runtime:           153.55 secs
+
+
+Memory Block Size: 32
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 32 bytes
+Total Blocks in Cache =      2048
+Associativity =              2
+Number of Sets =             1024
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         222302556
+Read misses:       2337444
+Read miss rate:    1.04%
+Write hits:        3974400
+Write misses:      172800
+Write miss rate:   4.17%
+Runtime:           153.63 secs
+
+
+Memory Block Size: 64
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223266764
+Read misses:       1373236
+Read miss rate:    0.61%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           151.33 secs
+
+
+Memory Block Size: 128
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 128 bytes
+Total Blocks in Cache =      512
+Associativity =              2
+Number of Sets =             256
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223748868
+Read misses:       891132
+Read miss rate:    0.40%
+Write hits:        4104000
+Write misses:      43200
+Write miss rate:   1.04%
+Runtime:           142.96 secs
+
+
+Memory Block Size: 256
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 256 bytes
+Total Blocks in Cache =      256
+Associativity =              2
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223989860
+Read misses:       650140
+Read miss rate:    0.29%
+Write hits:        4125600
+Write misses:      21600
+Write miss rate:   0.52%
+Runtime:           140.36 secs
+
+
+Memory Block Size: 512
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 512 bytes
+Total Blocks in Cache =      128
+Associativity =              2
+Number of Sets =             64
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         218369320
+Read misses:       6270680
+Read miss rate:    2.79%
+Write hits:        3734992
+Write misses:      412208
+Write miss rate:   9.94%
+Runtime:           156.55 secs
+
+
+Memory Block Size: 1024
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 1024 bytes
+Total Blocks in Cache =      64
+Associativity =              2
+Number of Sets =             32
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         209335669
+Read misses:       15304331
+Read miss rate:    6.81%
+Write hits:        2937064
+Write misses:      1210136
+Write miss rate:   29.18%
+Runtime:           183.43 secs

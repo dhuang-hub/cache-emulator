@@ -1,0 +1,451 @@
+Matrix Multiply Analysis
+
+
+Matrix Multiply: 2 Associativity / 480 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         96768000
+Read misses:       124646400
+Read miss rate:    56.30%
+Write hits:        604800
+Write misses:      316800
+Write miss rate:   34.38%
+Runtime:           552.57 secs
+
+
+Matrix Multiply: 2 Associativity / 480 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223266764
+Read misses:       1373236
+Read miss rate:    0.61%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           146.63 secs
+
+
+Matrix Multiply: 2 Associativity / 488 Dimension / mxm Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 466047808
+Read hits:         217799959
+Read misses:       14866729
+Read miss rate:    6.39%
+Write hits:        863272
+Write misses:      89304
+Write miss rate:   9.38%
+Runtime:           202.64 secs
+
+
+Matrix Multiply: 2 Associativity / 488 Dimension / mxm_block Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 494625088
+Read hits:         244617625
+Read misses:       2337703
+Read miss rate:    0.95%
+Write hits:        15151912
+Write misses:      89304
+Write miss rate:   0.59%
+Runtime:           262.95 secs
+
+
+Matrix Multiply: 2 Associativity / 512 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 538181632
+Read hits:         117440512
+Read misses:       151257088
+Read miss rate:    56.29%
+Write hits:        0
+Write misses:      1048576
+Write miss rate:   100.00%
+Runtime:           714.40 secs
+
+
+Matrix Multiply: 2 Associativity / 512 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              2
+Number of Sets =             512
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 546045952
+Read hits:         117440512
+Read misses:       155189248
+Read miss rate:    56.92%
+Write hits:        0
+Write misses:      4980736
+Write miss rate:   100.00%
+Runtime:           717.35 secs
+
+
+Matrix Multiply: 8 Associativity / 480 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         96768000
+Read misses:       124646400
+Read miss rate:    56.30%
+Write hits:        604800
+Write misses:      316800
+Write miss rate:   34.38%
+Runtime:           562.91 secs
+
+
+Matrix Multiply: 8 Associativity / 480 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           162.50 secs
+
+
+Matrix Multiply: 8 Associativity / 488 Dimension / mxm Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 466047808
+Read hits:         217871995
+Read misses:       14794693
+Read miss rate:    6.36%
+Write hits:        863272
+Write misses:      89304
+Write miss rate:   9.38%
+Runtime:           208.53 secs
+
+
+Matrix Multiply: 8 Associativity / 488 Dimension / mxm_block Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 494625088
+Read hits:         244754972
+Read misses:       2200356
+Read miss rate:    0.89%
+Write hits:        15151912
+Write misses:      89304
+Write miss rate:   0.59%
+Runtime:           215.77 secs
+
+
+Matrix Multiply: 8 Associativity / 512 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 538181632
+Read hits:         117440512
+Read misses:       151257088
+Read miss rate:    56.29%
+Write hits:        688128
+Write misses:      360448
+Write miss rate:   34.38%
+Runtime:           649.44 secs
+
+
+Matrix Multiply: 8 Associativity / 512 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              8
+Number of Sets =             128
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 546045952
+Read hits:         117440512
+Read misses:       155189248
+Read miss rate:    56.92%
+Write hits:        688128
+Write misses:      4292608
+Write miss rate:   86.18%
+Runtime:           763.11 secs
+
+
+Matrix Multiply: 1024 Associativity / 480 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 443520000
+Read hits:         207331202
+Read misses:       14083198
+Read miss rate:    6.36%
+Write hits:        835200
+Write misses:      86400
+Write miss rate:   9.38%
+Runtime:           242.32 secs
+
+
+Matrix Multiply: 1024 Associativity / 480 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5529600 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 480
+
+RESULTS===================================
+Instruction count: 449971200
+Read hits:         223747200
+Read misses:       892800
+Read miss rate:    0.40%
+Write hits:        4060800
+Write misses:      86400
+Write miss rate:   2.08%
+Runtime:           199.58 secs
+
+
+Matrix Multiply: 1024 Associativity / 488 Dimension / mxm Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 466047808
+Read hits:         217871994
+Read misses:       14794694
+Read miss rate:    6.36%
+Write hits:        863272
+Write misses:      89304
+Write miss rate:   9.38%
+Runtime:           252.27 secs
+
+
+Matrix Multiply: 1024 Associativity / 488 Dimension / mxm_block Method / 8 BlockFactor
+
+INPUTS====================================
+Ram Size =                   5715456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        8
+Matrix or Vector dimension = 488
+
+RESULTS===================================
+Instruction count: 494625088
+Read hits:         245079944
+Read misses:       1875384
+Read miss rate:    0.76%
+Write hits:        15151912
+Write misses:      89304
+Write miss rate:   0.59%
+Runtime:           249.43 secs
+
+
+Matrix Multiply: 1024 Associativity / 512 Dimension / mxm Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 538181632
+Read hits:         251625474
+Read misses:       17072126
+Read miss rate:    6.35%
+Write hits:        950272
+Write misses:      98304
+Write miss rate:   9.38%
+Runtime:           278.64 secs
+
+
+Matrix Multiply: 1024 Associativity / 512 Dimension / mxm_block Method / 32 BlockFactor
+
+INPUTS====================================
+Ram Size =                   6291456 bytes
+Cache Size =                 65536 bytes
+Block Size =                 64 bytes
+Total Blocks in Cache =      1024
+Associativity =              1024
+Number of Sets =             1
+Replacement Policy =         LRU
+Algorithm =                  mxm_block
+MXM Blocking Factor =        32
+Matrix or Vector dimension = 512
+
+RESULTS===================================
+Instruction count: 546045952
+Read hits:         271548416
+Read misses:       1081344
+Read miss rate:    0.40%
+Write hits:        4882432
+Write misses:      98304
+Write miss rate:   1.97%
+Runtime:           235.78 secs
