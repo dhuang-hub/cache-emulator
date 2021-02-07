@@ -72,10 +72,15 @@ totally bypass cython with the `*.c` files I generated). The setup
 script will also move the compiled `*.so`/`*.pyd` files to the
 top-level directory level where this `README.md` sits.
 
+Note: I've included `darwin-compile-files.zip` of importable modules,
+compiled on my Macbook machine. Mac users should be able to unzip
+and run the files with the instructions detailed below (no
+re-compilation required).
+
 Note: For Mac users (like myself), Cython compilation may kick out
 a known error that is supposedly patched, but not yet distributed.
 There is a quick fix for this, and I've detailed it in the comments
-of the `setup.py` file.
+of the `pyx/setup.py` file.
 
 
 #### Running Code
@@ -137,12 +142,12 @@ Note: My `mxm_block` implementation will throw an assertion error
 if the dimension is not divisible by the blocking factor.
 
 #### Test Scripts
-`python Py/test.py`
+`python py/test.py`
 
 `python test_cy.py`
 
 
 # TL;DR
-1. Compile: `python Pyx/setup.py`
+1. Compile: `python pyx/setup.py`
 
 2. Run: `python cache-sim.py [parameter options]`
