@@ -1,4 +1,4 @@
-# Project 1: Cython Cache Simulator
+Cython Cache Simulator
 #### By David Huang
 
 
