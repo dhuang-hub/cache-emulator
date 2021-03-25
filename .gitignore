@@ -1,0 +1,10 @@
+*.ipynb
+notebooks
+*.xlsx
+.ipynb_checkpoints
+.DS_Store
+.idea
+Project-1.pdf
+*.so
+*.zip
+Project-1.pdf
